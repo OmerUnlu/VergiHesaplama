@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.vergi{
+    display: flex;   
+    justify-content: center;
+    
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.container{
+   width: 60%;
+}
+label, select{
+    border: 1px solid rgb(235, 39, 39);
+}
+span label{
+    border: none;
+}
+input{
+    margin-left: 15px;
+    
+}
+.motor{
+    padding: 10px 0 10px 0;
+}
+
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid rgb(22, 21, 21);
+}
+#vergiH{
+    width: 100%;
+    padding: 10;
+    margin: 0;
+}
+
+#aracTipi option{
+    font-size: .8rem;
+    padding: 2px;
+    margin: 1px;
+}
+.container h5{
+    background-color: aquamarine ;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
